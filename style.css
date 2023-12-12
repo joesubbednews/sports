@@ -1,0 +1,173 @@
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: larger;
+    font-weight: normal;
+}
+
+p {
+    margin: 10px 0px;
+    font-size: normal;
+}
+
+a, a:visited, a:active {
+    color: inherit;
+   }
+
+.menu-outer {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+}
+
+.menu-inner {
+    margin: auto;
+    width: 1000px;
+    max-width: 95%;
+    text-align: center;
+}
+
+.menu-text {
+    margin: 0;
+}
+
+.menu-link {
+
+    text-decoration: none;
+}
+
+.h1-outer {
+    background-color: #00007E;
+    width: 100%;
+}
+
+.h1-inner {
+    color: white;
+    margin: auto;
+    width: 1000px;
+    max-width: 95%;
+    text-align: center;
+    padding: 15px;
+}
+
+.h2-outer {
+    background-color: #F66621;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.h2-inner {
+    margin: auto;
+    width: 1000px;
+    max-width: 95%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.fixture-dates {
+    font-size: larger;
+}
+
+.story-inner {
+    margin: auto;
+    width: 1000px;
+    max-width: 95%;
+}
+
+.logos-inner {
+    margin: auto;
+    width: 1000px;
+    max-width: 95%;
+    text-align: center;
+    padding: 10px;
+}
+
+iframe {
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 100%;
+    display: block;
+    border-style: none;
+}
+
+.results {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-results {
+    width: 50%;
+    min-width: 400px;
+}
+
+.away-results {
+    width: 50%;
+    margin-left: auto;
+    min-width: 400px;
+}
+
+.key-stats {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.competition-fixture{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+.competition-fixture-teams {
+    text-align: center;
+    font-size: larger;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.competition-fixture-ko {
+    text-align: center;
+    margin: 0px;
+    color: #F66621;
+    vertical-align: top;
+}
+
+.competitions{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-large;
+}
+.competition-name{
+    text-decoration: none;
+}
+
+  .competition-logo{
+      align-items: center;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+  }
+
+  
